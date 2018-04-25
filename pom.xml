@@ -55,11 +55,14 @@
             <version>1.2.5</version>
         </dependency>
         <dependency>
-          <properties>
-             <maven.compiler.source>1.6</maven.compiler.source>
-             <maven.compiler.target>1.6</maven.compiler.target>
-           </properties>
-        </dependency>
+            <groupId>maven.compiler.source</groupId>
+            <artifactId>maven.compiler.source</artifactId>
+             <version>1.6</version>
+         <dependency>
+            <groupId>maven.compiler.target</groupId>
+            <artifactId>maven.compiler.target</artifactId>
+             <version>1.6</version>
+         </dependency>      
         <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
         <dependency>
             <groupId>info.cukes</groupId>
