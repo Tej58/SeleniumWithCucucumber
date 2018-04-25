@@ -54,10 +54,12 @@
             <artifactId>cucumber-java</artifactId>
             <version>1.2.5</version>
         </dependency>
-         <properties>
+        <dependency>
+          <properties>
              <maven.compiler.source>1.6</maven.compiler.source>
              <maven.compiler.target>1.6</maven.compiler.target>
-         </properties>
+           </properties>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
         <dependency>
             <groupId>info.cukes</groupId>
